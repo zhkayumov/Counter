@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         // New comments
+        //some text
         textView = findViewById(R.id.textView)
 
     }
