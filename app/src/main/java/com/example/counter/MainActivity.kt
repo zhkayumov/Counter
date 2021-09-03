@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         count++
         // Display the new value in the text view.
         textView.text = count.toString();
-        //comment12
+        //comment1
 
     }
 }
