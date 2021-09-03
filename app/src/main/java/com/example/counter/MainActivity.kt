@@ -10,8 +10,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        // New comments
-        //some text
         textView = findViewById(R.id.textView)
 
     }
@@ -24,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         count++
         // Display the new value in the text view.
         textView.text = count.toString();
-        //comment12
+        
 
     }
 }
