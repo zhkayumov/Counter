@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         textView = findViewById(R.id.textView)
-        //Hello Zhalil!
+
     }
     private lateinit var textView: TextView
 
